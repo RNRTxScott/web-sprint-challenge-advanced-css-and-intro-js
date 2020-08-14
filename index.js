@@ -236,12 +236,13 @@ that takes data as an argument and returns an array with names of artists who we
 
  
 function get20s(){
-for (i = 0; i < array.years, i++;){
+for (i = 0; i < array.years; i++){
     if (array.years <= "1900" && "2000");
 
 }
 }
 console.log(artists.years);
+
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
  *     (2) a number which is the desired index in the array.
@@ -276,7 +277,7 @@ function addArtist(id, name, years, genre, nationality, bio){
   artists.push({id, name, years, genre, nationality, bio});
   return artists; 
   }
-console.log(addArtist('20', 'Scott V', '1992 - 2020', 'web design', 'Indoensian American', 'lorem ipsum..'));
+console.log(addArtist(20, 'Scott V', '1992 - 2020', 'web design', 'Indoensian American', 'lorem ipsum..'));
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
     (1) artists array 
@@ -285,13 +286,16 @@ and returns an array with names of artists who painted more than 100 paintings.
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
 
-function lotsOfArt(/* Code here */){
-
-  /* Code here */
-
+function lotsOfArt(arr,i){
+  for (i = 0; i < arr.length; i++){
+  if (arr[i].paintings >= 100){
+    return 
+  }
+  else{
+  }
 }
-
-
+}
+console.log(lotsOfArt(artists,artists.years));
 
 // 🎨🎨 STRETCH 🎨🎨//
 
